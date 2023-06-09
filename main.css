@@ -1,94 +1,202 @@
-
-body{
-    font-family: roboto, sans-serif;
+body {
+  font-family: roboto, sans-serif;
+}
+.imagem-logo {
+  max-width: 60px;
+}
+a{
+    text-decoration: none;
+}
+p{
+    color: black;
 }
 
-.navbar{
-    background-color: tomato;
+header {
+  border-bottom: 1px solid rgba(255, 145, 0, 0.527);
 }
 
-.nav .nav-item .nav-link.active{
-    background-color: white;
-    color: tomato;
-}
-.nav .nav-item .nav-link{
-    color: white;
-    font-family: 'Roboto', sans-serif;
+.navbar {
+  background-color: rgb(255, 255, 255);
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.navbar .container .navbar-brand{
-    color: white;
+.nav .nav-item .nav-link.active {
+  background-color: rgb(255, 138, 0);
+  color: rgb(255, 255, 255);
+}
+.nav .nav-item .nav-link {
+  color: rgb(255, 138, 0);
+  font-family: "Roboto", sans-serif;
 }
 
-.navbar-toggler{
-    background-color: rgb(255, 255, 255);
-}
-.carousel-item img{
-    height: 500px;
-    width: 100%;
+.navbar .container .navbar-brand {
+  color: rgb(255, 138, 0);
 }
 
-.section-title{
-    font-family: 'Pacifico', cursive;
+.navbar-toggler {
+  background-color: rgb(230, 240, 250);
 }
 
-
-#sobre-o-restaurante{
-    background-color: rgb(247, 236, 234);
+#promocoes {
+  background-color: rgb(255, 234, 207);
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+  padding-bottom: 45px;
 }
 
-.text-colored{
-    color: tomato;
-    font-family: 'Pacifico', cursive;
+#promocoes img {
+  max-width: 1000px;
+  width: 800px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 50px 5px #fcc738c2;
 }
 
-#eventos{
-    background-color: rgb(246, 226, 223);
+#destaques {
+  background-color: rgb(255, 234, 207);
 }
+.imagem-destaques {
+
+  height: 200px;
+
+}
+
+.fotos-destaques {
+  display: flex;
+  justify-content: center;
+}
+.title-destaques h1 {
+  padding-top: 30px;
+}
+
+.destaques-item p {
+  max-width: 25ch;
+}
+
+.destaques-item {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.destaques-item  h3:hover{
+    font-size: 30px;
+}
+
+.section-title {
+  font-family: "Pacifico", cursive;
+}
+
+#sobre-o-restaurante {
+  background-color: rgb(255, 234, 207);
+  padding-top: 100px;
+}
+
+.text-colored {
+  color: rgb(255, 138, 0);
+  font-family: "Pacifico", cursive;
+}
+
+#eventos {
+  background-color: rgb(255, 234, 207);
+  padding-top: 100px;
+}
+#eventos .container {
+  padding-top: 100px;
+}
+#eventos .container h3 img{
+ max-width: 30px;
+}
+#eventos .container h3 {
+    margin-top: 10px;
+   }
+
 .nav-cardapio .nav-link.active {
-    background-color: tomato;
-    color: #fff;
+  background-color: rgb(255, 138, 0);
+  color: #fff;
+}
+
+.nav-cardapio button img{
+    max-width: 30px;
+    padding-left: 6px;
 }
 
 .nav-cardapio .nav-link:hover {
-    color: rgb(255, 38, 0);
+  color: rgb(255, 138, 0);
 }
-.nav-cardapio .nav-link.active:hover{
-    color: white;
+.nav-cardapio .nav-link.active:hover {
+  color: white;
 }
-.col-md-2 .nav .nav-link{
-    font-family: 'Roboto', sans-serif;
+.col-md-2 .nav .nav-link {
+  font-family: "Roboto", sans-serif;
 }
-#cardapio{
-    background-color: rgb(246, 222, 218);
+#cardapio {
+  background-color: rgb(255, 234, 207);
+  padding-top: 100px;
 }
 
 .social-links li {
+  list-style: none;
+  display: inline;
+}
+.social-links li a {
+  text-decoration: none;
+}
+.text-colored2 {
+  color: rgb(255, 138, 0);
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.link a{
     list-style: none;
-    display: inline;
-}
-.social-links li a{
     text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(252, 135, 2);
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 20px;
+    transition: all .3s;
 }
-.text-colored2{
-    color: tomato;
-}
-
-#fale-conosco button{
-    background-color: rgb(255, 90, 61);
-    color: #fff;
-    font-weight: bold;
-    margin-bottom: 80px;
-}
-#fale-conosco button:hover{
-    background-color: rgb(252, 38, 0);
-}
-#fale-conosco{
-    background-color: rgb(255, 244, 242);
+.link a:hover{
+    background-color:rgb(219, 118, 2); ;
 }
 
-@media screen and (max-width:767px){
-    .carousel-item img {
-        height: 280px;
+
+#fale-conosco button {
+  background-color: rgb(255, 138, 0);
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 80px;
+}
+#fale-conosco button:hover {
+  background-color: rgb(226, 121, 0);
+}
+#fale-conosco {
+  background-color: rgb(255, 234, 207);
+  padding-top: 100px;
+}
+
+#fale-conosco .container {
+  padding-top: 100px;
+}
+
+@media screen and (max-width: 767px) {
+    #promocoes img {
+        max-width: 400px;
     }
+
+    .link a{
+        padding: 10px;
+    }
+    .navbar{
+        padding: 6px;
+    }
+
 }
