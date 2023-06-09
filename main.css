@@ -16,7 +16,7 @@ header {
 }
 
 .navbar {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(253, 244, 238);
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -189,7 +189,7 @@ header {
 
 @media screen and (max-width: 767px) {
     #promocoes img {
-        max-width: 400px;
+        max-width: 350px;
     }
 
     .link a{
